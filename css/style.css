@@ -17,7 +17,12 @@ img {
 .container {
     margin: 0 auto;
     max-width: 900px;
+    padding: 20px 0;
 }
+
+/* .row {
+    padding: 20px;
+} */
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -57,12 +62,17 @@ body {
     width: 400px;
 }
 
-.col-login {
+.col-login,
+.col-register {
     display: inline-block;
-    background-color: white;
-    border-radius: 15px;
-    padding: 7px 9px;
+    border-radius: 20px;
+    padding: 7px 12px;
+    
+}
+
+.col-login {
     color: black;
+    background-color: white;
 }
 
 /* main */
@@ -148,7 +158,6 @@ main section:nth-child(3) .row {
 .page-footer {
     background-color: #23272A;
     color: white;
-    padding: 20px;
 }
 
 .page-footer li {
@@ -171,10 +180,14 @@ main section:nth-child(3) .row {
     color: #6F84D2;
 }
 
-[class~='logo-footer'], [class~='button'] {
-    height: 20px;
+.col-register {
+    background-color: #7289DA;
+    font-size: 15px;
 }
 
+.line {
+    border-top: 1px solid #7289DA;
+}
 
 
 #debug .main-header {
