@@ -19,6 +19,10 @@ img {
     max-width: 900px;
 }
 
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 .row,
 .menu {
     display: flex;
@@ -30,6 +34,31 @@ img {
 
 .align-center {
     align-items: center;
+}
+
+/* header */
+
+.main-header {
+    background-color: #255EE9;
+    color: white;
+    padding: 10px;
+}
+
+.menu {
+    width: 400px;
+}
+
+/* .li {
+    display: inline-block;
+} */
+
+
+.col-login {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px 9px;
+    color: black;
 }
 
 /* main */
