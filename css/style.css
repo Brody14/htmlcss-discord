@@ -145,9 +145,37 @@ main section:nth-child(3) .row {
 
 /* footer */
 
+.page-footer {
+    background-color: #23272A;
+    color: white;
+    padding: 20px;
+}
+
+.page-footer li {
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.col-33 .link-title {
+    color: #6F84D2;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.flag {
+    width: 20px;
+    height: 12px;
+}
+
+.link-second-title {
+    color: #6F84D2;
+}
+
 [class~='logo-footer'], [class~='button'] {
     height: 20px;
 }
+
+
 
 #debug .main-header {
     background-color: #ADD8E6;
@@ -187,13 +215,13 @@ main section:nth-child(3) .row {
     min-height: 200px;
 }
 
-#debug [class~='img'] {
+#debug .col-40 {
     min-height: 200px;
     background-color: #1E90FF;
     border: 1px dashed black;
 }
 
-#debug [class~='text'] {
+#debug .col-60 {
     width: 200px;
     min-height: 200px;
     background-color: #FFC0CB;
@@ -211,7 +239,6 @@ main section:nth-child(3) .row {
 }
 
 #debug .page-footer {
-    background-color: #23272A;
     padding: 20px;
 }
 
