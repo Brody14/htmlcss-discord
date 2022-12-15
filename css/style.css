@@ -41,6 +41,10 @@ body {
     justify-content: center;
 }
 
+.align-start {
+    align-items: flex-start;
+}
+
 /* header */
 
 .main-header {
@@ -87,7 +91,7 @@ main h2 {
 }
 
 .text {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .download {
