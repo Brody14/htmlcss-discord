@@ -100,6 +100,10 @@ main h2 {
     padding: 20px 0;
 }
 
+main h3 {
+    font-size: 25px;
+}
+
 .text {
     padding: 10px 0;
 }
@@ -145,6 +149,23 @@ main section:nth-child(3) .row {
     flex-basis: 100%;
 }
 
+.bg-gray .mac {
+    background-color: #7289DA;
+    color: white;
+}
+
+.space {
+    padding: 20px 0;
+}
+
+.bg {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+/* footer */
+
 .col-33 {
     flex-basis: calc(100% / 3);
 }
@@ -152,8 +173,6 @@ main section:nth-child(3) .row {
 .col-16 {
     flex-basis: calc(100% / 6);
 }
-
-/* footer */
 
 .page-footer {
     background-color: #23272A;
