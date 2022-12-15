@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.row,
+.menu {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* main */
+
+.container-small {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+[class~='img'] {
+    flex-basis: 60%;
+}
+
+[class~='text'] {
+    flex-basis: 40%;
+}
+
+main section:nth-child(3) .row {
+    flex-direction: row-reverse;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.col-100 {
+    flex-basis: 100%;
+}
+
+.col-33 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-16 {
+    flex-basis: calc(100% / 6);
+}
+
+/* footer */
+
+[class~='logo-footer'], [class~='button'] {
+    height: 20px;
+}
+
+#debug .main-header {
+    background-color: #ADD8E6;
+    padding: 20px 0;
+}
+
+#debug .container,
+#debug .container-small {
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+#debug header [class^='col'] {
+    border: 2px dashed black;
+    background-color: #DAA520;
+    padding: 5px 15px;
+}
+
+#debug .intro  {
+    background-color: blue;
+    padding: 20px;
+}
+
+#debug .intro > * {
+    min-height: 200px;
+    background-color: #EE82EE;
+    border: 1px dashed black;
+}
+
+#debug .row {
+    border: 3px dotted cornflowerblue;
+    padding: 20px;
+}
+
+#debug main [class^='col'],
+#debug footer section:first-child [class^='col'] {
+    min-height: 200px;
+}
+
+#debug [class~='img'] {
+    min-height: 200px;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+#debug [class~='text'] {
+    width: 200px;
+    min-height: 200px;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+#debug main section:nth-child(3) {
+    background-color: #D3D3D3;
+}
+
+#debug .col-100 {
+    min-height: 500px;
+    background-color: #228B22;
+    border: 1px dashed black;
+}
+
+#debug .page-footer {
+    background-color: #23272A;
+    padding: 20px;
+}
+
+#debug .col-33 {
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+
+#debug .col-16 {
+    background-color: #20B2AA;
+    border: 1px dashed white;
+}
+
+#debug footer section:last-child .row {
+    background-color: #7FFFD4;
+    max-width: 900px;
+}
+
+#debug footer section:last-child .row > .col {
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+}
+
